@@ -1,139 +1,97 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Steelcase • Specaide Partners</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Steelcase partner page — overview, key product lines, and why Specaide specifies it for commercial projects.">
-  <link rel="stylesheet" href="../style.css">
-  <style>
-    :root{--brand:#111111;--brand2:#FF6A00;}
-    body{background:
-      radial-gradient(800px 320px at 20% 10%, color-mix(in srgb,var(--brand) 35%, transparent), transparent 60%),
-      radial-gradient(600px 260px at 80% 20%, color-mix(in srgb,var(--brand2) 28%, transparent), transparent 62%),
-      linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));}
-    .brand-hero{position:relative; overflow:hidden}
-    .brand-hero::before{
-      content:""; position:absolute; inset:-1px;
-      background-image:
-        linear-gradient(120deg, rgba(0,0,0,.78), rgba(0,0,0,.25)),
-        url('https://images.steelcase.com/image/upload/t_masthead_ow/q_auto%2Cf_auto%2Ch_656%2Cw_1166/v1676576724/22-0188228_4x3-e1676576723437.jpg');
-      background-size:cover; background-position:center;
-      filter:saturate(1.05) contrast(1.05);
-      transform:scale(1.04);
-    }
-    .brand-hero .hero-card{position:relative}
-    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-    .chip{border:1px solid color-mix(in srgb,var(--brand) 30%, var(--border));
-      background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));
-      padding:8px 12px;border-radius:999px;font-weight:700;font-size:13px;color:rgba(245,246,247,.9)}
-    .miniimg{border-radius:14px;overflow:hidden;border:1px solid var(--border);margin-bottom:12px;background:rgba(255,255,255,.02)}
-    .miniimg img{width:100%;height:160px;object-fit:cover;display:block}
-    .stack{display:grid;gap:16px}
-    .split{display:grid;gap:18px;grid-template-columns:1.2fr .8fr}
-    @media(max-width:900px){.split{grid-template-columns:1fr}}
-    .shots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:14px}
-    .shot{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--border);
-      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
-    .shot img{width:100%;height:220px;object-fit:cover;display:block}
-    .shot figcaption{padding:12px 14px;color:rgba(245,246,247,.72);font-size:13px}
-    .muted-card{padding:18px;border-radius:18px;border:1px solid var(--border);
-      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
-    .muted-card ul{margin:12px 0 0 18px;color:rgba(245,246,247,.75)}
-    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
-    .btn-brand{background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 92%, white),color-mix(in srgb,var(--brand) 78%, black));
-      color:#0b0b0f;border:0}
-    .btn-outline{background:transparent;border:1px solid color-mix(in srgb,var(--brand) 35%, var(--border));}
-    .btn-outline:hover{transform:translateY(-1px);border-color:color-mix(in srgb,var(--brand) 60%, var(--border));}
-  </style>
-</head>
-<body>
-<header>
-  <div class="header-inner">
-    <div class="brandmark"><span class="branddot"></span>Specaide</div>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="../partners.html" class="nav-active">Partners</a>
-      <a href="../contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Steelcase | Specaide</title>
+<link rel="stylesheet" href="../style.css">
+<style>:root{--brand:#ff6a00;}</style>
+</head><body>
+<header><div class="header-inner">
+  <div class="brandmark"><span class="branddot"></span><span>Specaide</span></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../services.html">Services</a>
+    <a href="../partners.html" class="nav-active">Partners</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</div></header>
 
-<section class="hero brand-hero">
-  <div class="hero-card">
-    <div class="kicker">Brand Partner</div>
-    <h1>Steelcase</h1>
-    <p>Workplace furniture engineered for performance, comfort, and modern space planning.</p>
-    <div class="chips"><span class="chip">Office furniture</span><span class="chip">Ergonomic seating & workspaces</span><span class="chip">Commercial-grade build</span></div>
+<section class="hero">
+  <div class="hero-card fade-up">
+    <div class="hero-media" style="background-image:url('https://source.unsplash.com/1600x900/?ergonomic%20office%20chair')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="kicker">Brand partner</div>
+      <h1>Steelcase</h1>
+      <p>Global leader in workplace furniture — research-driven, ergonomic, and built for scalable commercial fit-outs.</p>
+      <div class="chips"><span class="chip">Furniture systems</span><span class="chip">Ergonomic seating</span><span class="chip">Collaboration spaces</span></div>
+      <div class="actions">
+        <a class="btn btn-primary" href="../contact.html">Book a Call</a>
+        <a class="btn btn-ghost" href="https://www.steelcase.com/" target="_blank" rel="noopener">Official site</a>
+        <a class="btn btn-ghost" href="../partners.html">Back</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container split">
-    <div class="stack">
-      <h2>Overview</h2>
-      <p>Steelcase is a global workplace solutions brand known for research-driven seating, collaborative spaces, and design systems that support focused work and team dynamics in modern offices.</p>
+<div class="container">
+  <div class="two-col">
+    <div class="card fade-up delay-1">
+      <div class="pill">Overview</div>
+      <div class="divider"></div>
+      <p>Steelcase is known for workplace research and design-led furniture systems that support focus, collaboration and wellbeing. Their portfolio spans seating, workstations, and collaboration solutions for modern offices.</p>
 
-      <h2>Signature product lines</h2>
-      <div class="grid">
-        <div class="card">
-          <div class="miniimg"><img src="https://images.steelcase.com/image/upload/t_masthead_ow/q_auto%2Cf_auto%2Ch_656%2Cw_1166/v1686758706/7545028c-c6cf-497c-8c9f-72b7076de4fa.png" alt="Ergonomic task chairs"></div>
-          <h3>Ergonomic task chairs</h3>
-          <p>Flagship seating designed for long workdays with extensive adjustability and posture support (e.g., Gesture / Leap).</p>
-        </div>
-        <div class="card">
-          
-          <h3>Workstations & desks</h3>
-          <p>Benching, desks, and height-adjust solutions for agile teams and private offices.</p>
-        </div>
-        <div class="card">
-          
-          <h3>Collaboration & lounge</h3>
-          <p>Sofas, lounge seating, and meeting solutions to build inviting, high-performing spaces.</p>
-        </div></div>
+      <div class="divider"></div>
+      <div class="pill">Main product lines</div>
+      <div class="divider"></div>
+      <ul class="list"><li>Ergonomic task seating and supportive work chairs</li><li>Systems furniture and modular workstations</li><li>Collaboration furniture: tables, lounge, and meeting solutions</li><li>Storage, ancillary pieces and workplace accessories</li></ul>
 
-      <h2>Featured visuals</h2>
-      <div class="shots">
-        <figure class="shot">
-          <img src="https://images.steelcase.com/image/upload/t_masthead_ow/q_auto%2Cf_auto%2Ch_656%2Cw_1166/v1676576724/22-0188228_4x3-e1676576723437.jpg" alt="Steelcase chair">
-          <figcaption>Ergonomic seating designed for all-day comfort.</figcaption>
-        </figure>
-        <figure class="shot">
-          <img src="https://images.steelcase.com/image/upload/t_masthead_ow/q_auto%2Cf_auto%2Ch_656%2Cw_1166/v1686758706/7545028c-c6cf-497c-8c9f-72b7076de4fa.png" alt="Steelcase chair product image">
-          <figcaption>Iconic task-chair engineering with premium finishes.</figcaption>
-        </figure></div>
+      <div class="divider"></div>
+      <div class="pill">Featured visuals</div>
+      <div class="divider"></div>
+      <div class="media-row">
+        <div class="media">
+          <img src="https://source.unsplash.com/1600x900/?ergonomic%20office%20chair" alt="Steelcase product">
+          <div class="cap">Signature look</div>
+          <div class="sub">Representative imagery — final selection depends on project spec.</div>
+        </div>
+        <div class="media">
+          <img src="https://source.unsplash.com/1600x900/?ergonomic%20office%20chair" alt="Steelcase application">
+          <div class="cap">In-use context</div>
+          <div class="sub">We align performance, aesthetics and budget.</div>
+        </div>
+      </div>
     </div>
 
-    <aside class="muted-card">
-      <div class="kicker">Why we specify</div>
-      <h3 style="margin:8px 0 0">What makes Steelcase distinctive</h3>
-      <ul><li>Highly adjustable ergonomic seating with strong reputation in commercial workplaces</li><li>Design-forward collections that still prioritize durability and serviceability</li><li>Broad ecosystem: task, lounge, collaborative, and architectural workplace elements</li></ul>
-
-      <div style="height:14px"></div>
-      <div class="kicker">Official site</div>
-      <p style="margin:8px 0 0">
-        <a href="https://www.steelcase.com/" target="_blank" rel="noopener" style="color:color-mix(in srgb,var(--brand) 70%, white);font-weight:800;text-decoration:none">
-          Visit Steelcase →
-        </a>
-      </p>
-
-      <div class="cta-row">
-        <a class="btn btn-brand" href="../contact.html">Book a call</a>
-        <a class="btn btn-outline" href="../partners.html">Back to partners</a>
+    <div>
+      <div class="card fade-up delay-2">
+        <div class="pill">What makes it unique</div>
+        <div class="divider"></div>
+        <ul class="list"><li>Research-driven ergonomics and workplace performance thinking</li><li>Durable systems designed for long lifecycle and large-scale rollouts</li><li>Design-forward solutions that adapt to changing work styles</li></ul>
       </div>
 
-      <p style="margin-top:14px;color:rgba(245,246,247,.55);font-size:12.5px">
-        Specaide supplies and specifies this brand for commercial projects. For purchasing, quotes, lead times, and after-sales support, contact Specaide.
-      </p>
-    </aside>
-  </div>
-</section>
+      <div class="card fade-up delay-3" style="margin-top:16px;">
+        <div class="pill">Where it fits</div>
+        <div class="divider"></div>
+        <ul class="list"><li>Corporate fit-outs and premium workplace environments</li><li>Meeting rooms, collaboration hubs, and agile workspaces</li><li>Projects requiring high durability, consistency and scale</li></ul>
+      </div>
 
-<footer>
-  <div class="container footer-inner">
-    <div>© 2025 Specaide Interiors Pvt. Ltd.</div>
-    <div class="footnote">Premium commercial interiors • Specification aide • Procurement</div>
+      <div class="card fade-up" style="margin-top:16px;">
+        <div class="pill">Work with Specaide</div>
+        <div class="divider"></div>
+        <p class="small">We help you select the right options, document them cleanly, and supply the approved solution through our dealer network.</p>
+        <div class="actions" style="margin-top:12px;">
+          <a class="btn btn-primary" href="../contact.html">Book a Call</a>
+          <a class="btn btn-ghost" href="mailto:info@specaide.com?subject=Steelcase%20-%20Project%20Enquiry">Email</a>
+        </div>
+      </div>
+    </div>
   </div>
-</footer>
-</body>
-</html>
+</div>
+
+<footer><div class="footer-inner">
+  <div>© Specaide Interiors Pvt. Ltd.</div>
+  <div><a href="../contact.html">Book a Call</a></div>
+</div></footer>
+</body></html>
