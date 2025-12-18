@@ -1,25 +1,139 @@
-<!DOCTYPE html><html><head>
-<title>Mannington</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="../style.css">
-<style>:root{--brand:#A08349;}</style>
-</head><body>
-<header><div class="header-inner">
-<div class="brandmark"><span class="branddot"></span>Specaide</div>
-<nav>
-<a href="../index.html">Home</a>
-<a href="../partners.html" class="nav-active">Partners</a>
-<a href="../contact.html">Contact</a>
-</nav></div></header>
-<section class="hero"><div class="hero-card">
-<div class="kicker">Brand</div><h1>Mannington</h1>
-<p>Commercial flooring manufacturer.</p>
-<a class="btn btn-primary" href="../contact.html">Book a Call</a>
-<a class="btn btn-ghost" href="https://www.manningtoncommercial.com" target="_blank">Official Site</a>
-</div></section>
-<div class="container"><div class="grid">
-<div class="card"><div class="pill">Products</div><p>LVT & resilient flooring</p></div>
-<div class="card"><div class="pill">Speciality</div><p>Commercial performance.</p></div>
-</div></div>
-<footer><div class="header-inner">© Specaide</div></footer>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mannington Commercial • Specaide Partners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mannington Commercial partner page — overview, key product lines, and why Specaide specifies it for commercial projects.">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    :root{--brand:#2BB673;--brand2:#0B3D2E;}
+    body{background:
+      radial-gradient(800px 320px at 20% 10%, color-mix(in srgb,var(--brand) 35%, transparent), transparent 60%),
+      radial-gradient(600px 260px at 80% 20%, color-mix(in srgb,var(--brand2) 28%, transparent), transparent 62%),
+      linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));}
+    .brand-hero{position:relative; overflow:hidden}
+    .brand-hero::before{
+      content:""; position:absolute; inset:-1px;
+      background-image:
+        linear-gradient(120deg, rgba(0,0,0,.78), rgba(0,0,0,.25)),
+        url('https://mannington.widen.net/content/u84a1p1otw/jpeg/Presidio_EnglishWalnut_PS3W106_roomscene.jpeg?color=ffffffff&crop=yes&h=1536&keep=c&quality=80&u=sdhomb&w=1536');
+      background-size:cover; background-position:center;
+      filter:saturate(1.05) contrast(1.05);
+      transform:scale(1.04);
+    }
+    .brand-hero .hero-card{position:relative}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .chip{border:1px solid color-mix(in srgb,var(--brand) 30%, var(--border));
+      background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));
+      padding:8px 12px;border-radius:999px;font-weight:700;font-size:13px;color:rgba(245,246,247,.9)}
+    .miniimg{border-radius:14px;overflow:hidden;border:1px solid var(--border);margin-bottom:12px;background:rgba(255,255,255,.02)}
+    .miniimg img{width:100%;height:160px;object-fit:cover;display:block}
+    .stack{display:grid;gap:16px}
+    .split{display:grid;gap:18px;grid-template-columns:1.2fr .8fr}
+    @media(max-width:900px){.split{grid-template-columns:1fr}}
+    .shots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:14px}
+    .shot{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
+    .shot img{width:100%;height:220px;object-fit:cover;display:block}
+    .shot figcaption{padding:12px 14px;color:rgba(245,246,247,.72);font-size:13px}
+    .muted-card{padding:18px;border-radius:18px;border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
+    .muted-card ul{margin:12px 0 0 18px;color:rgba(245,246,247,.75)}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn-brand{background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 92%, white),color-mix(in srgb,var(--brand) 78%, black));
+      color:#0b0b0f;border:0}
+    .btn-outline{background:transparent;border:1px solid color-mix(in srgb,var(--brand) 35%, var(--border));}
+    .btn-outline:hover{transform:translateY(-1px);border-color:color-mix(in srgb,var(--brand) 60%, var(--border));}
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brandmark"><span class="branddot"></span>Specaide</div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../partners.html" class="nav-active">Partners</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero brand-hero">
+  <div class="hero-card">
+    <div class="kicker">Brand Partner</div>
+    <h1>Mannington Commercial</h1>
+    <p>Commercial flooring across LVT, carpet, and resilient surfaces with design + performance focus.</p>
+    <div class="chips"><span class="chip">Luxury vinyl tile (LVT) & carpet</span><span class="chip">Commercial flooring</span><span class="chip">Design collections</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="stack">
+      <h2>Overview</h2>
+      <p>Mannington Commercial delivers flooring solutions for high-traffic environments—combining performance specs with design collections across hard surface and carpet categories.</p>
+
+      <h2>Signature product lines</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="miniimg"><img src="https://mannington.widen.net/content/u84a1p1otw/jpeg/Presidio_EnglishWalnut_PS3W106_roomscene.jpeg?color=ffffffff&crop=yes&h=1536&keep=c&quality=80&u=sdhomb&w=1536" alt="LVT (Luxury Vinyl Tile)"></div>
+          <h3>LVT (Luxury Vinyl Tile)</h3>
+          <p>Wood/stone-inspired LVT collections built for durability and low maintenance.</p>
+        </div>
+        <div class="card">
+          
+          <h3>Modular carpet</h3>
+          <p>Carpet tile collections for flexible planning and easy replacement in active areas.</p>
+        </div>
+        <div class="card">
+          
+          <h3>Resilient sheet & rubber</h3>
+          <p>Performance surfaces for healthcare, education, and other demanding segments.</p>
+        </div></div>
+
+      <h2>Featured visuals</h2>
+      <div class="shots">
+        <figure class="shot">
+          <img src="https://mannington.widen.net/content/u84a1p1otw/jpeg/Presidio_EnglishWalnut_PS3W106_roomscene.jpeg?color=ffffffff&crop=yes&h=1536&keep=c&quality=80&u=sdhomb&w=1536" alt="Mannington LVT roomscene">
+          <figcaption>LVT collections that balance design and performance.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="https://mannington.widen.net/content/5wcdr2sayx/jpeg/Presidio_ChateauOak_PS3W7980_Colorway.jpeg?color=ffffffff&h=1164&position=c&quality=80&u=sdhomb" alt="Mannington LVT plank closeup">
+          <figcaption>Natural textures and patterns in commercial-grade formats.</figcaption>
+        </figure></div>
+    </div>
+
+    <aside class="muted-card">
+      <div class="kicker">Why we specify</div>
+      <h3 style="margin:8px 0 0">What makes Mannington Commercial distinctive</h3>
+      <ul><li>Broad commercial portfolio across hard surface + soft surface</li><li>Collection-based design approach for cohesive interior schemes</li><li>Options that support durability, maintenance, and lifecycle value</li></ul>
+
+      <div style="height:14px"></div>
+      <div class="kicker">Official site</div>
+      <p style="margin:8px 0 0">
+        <a href="https://www.manningtoncommercial.com/" target="_blank" rel="noopener" style="color:color-mix(in srgb,var(--brand) 70%, white);font-weight:800;text-decoration:none">
+          Visit Mannington Commercial →
+        </a>
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-brand" href="../contact.html">Book a call</a>
+        <a class="btn btn-outline" href="../partners.html">Back to partners</a>
+      </div>
+
+      <p style="margin-top:14px;color:rgba(245,246,247,.55);font-size:12.5px">
+        Specaide supplies and specifies this brand for commercial projects. For purchasing, quotes, lead times, and after-sales support, contact Specaide.
+      </p>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2025 Specaide Interiors Pvt. Ltd.</div>
+    <div class="footnote">Premium commercial interiors • Specification aide • Procurement</div>
+  </div>
+</footer>
+</body>
+</html>

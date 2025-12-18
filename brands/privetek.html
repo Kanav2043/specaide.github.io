@@ -1,25 +1,139 @@
-<!DOCTYPE html><html><head>
-<title>Privetek</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="../style.css">
-<style>:root{--brand:#F15A24;}</style>
-</head><body>
-<header><div class="header-inner">
-<div class="brandmark"><span class="branddot"></span>Specaide</div>
-<nav>
-<a href="../index.html">Home</a>
-<a href="../partners.html" class="nav-active">Partners</a>
-<a href="../contact.html">Contact</a>
-</nav></div></header>
-<section class="hero"><div class="hero-card">
-<div class="kicker">Brand</div><h1>Privetek</h1>
-<p>Switchable smart glass.</p>
-<a class="btn btn-primary" href="../contact.html">Book a Call</a>
-<a class="btn btn-ghost" href="https://privetek.com" target="_blank">Official Site</a>
-</div></section>
-<div class="container"><div class="grid">
-<div class="card"><div class="pill">Products</div><p>Smart privacy glass</p></div>
-<div class="card"><div class="pill">Speciality</div><p>Commercial performance.</p></div>
-</div></div>
-<footer><div class="header-inner">© Specaide</div></footer>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privetek • Specaide Partners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privetek partner page — overview, key product lines, and why Specaide specifies it for commercial projects.">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    :root{--brand:#16A34A;--brand2:#0EA5E9;}
+    body{background:
+      radial-gradient(800px 320px at 20% 10%, color-mix(in srgb,var(--brand) 35%, transparent), transparent 60%),
+      radial-gradient(600px 260px at 80% 20%, color-mix(in srgb,var(--brand2) 28%, transparent), transparent 62%),
+      linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));}
+    .brand-hero{position:relative; overflow:hidden}
+    .brand-hero::before{
+      content:""; position:absolute; inset:-1px;
+      background-image:
+        linear-gradient(120deg, rgba(0,0,0,.78), rgba(0,0,0,.25)),
+        url('https://privetek.com/images/privacy-smart-glass/privacy-smart-glass-banner.webp');
+      background-size:cover; background-position:center;
+      filter:saturate(1.05) contrast(1.05);
+      transform:scale(1.04);
+    }
+    .brand-hero .hero-card{position:relative}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .chip{border:1px solid color-mix(in srgb,var(--brand) 30%, var(--border));
+      background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));
+      padding:8px 12px;border-radius:999px;font-weight:700;font-size:13px;color:rgba(245,246,247,.9)}
+    .miniimg{border-radius:14px;overflow:hidden;border:1px solid var(--border);margin-bottom:12px;background:rgba(255,255,255,.02)}
+    .miniimg img{width:100%;height:160px;object-fit:cover;display:block}
+    .stack{display:grid;gap:16px}
+    .split{display:grid;gap:18px;grid-template-columns:1.2fr .8fr}
+    @media(max-width:900px){.split{grid-template-columns:1fr}}
+    .shots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:14px}
+    .shot{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
+    .shot img{width:100%;height:220px;object-fit:cover;display:block}
+    .shot figcaption{padding:12px 14px;color:rgba(245,246,247,.72);font-size:13px}
+    .muted-card{padding:18px;border-radius:18px;border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
+    .muted-card ul{margin:12px 0 0 18px;color:rgba(245,246,247,.75)}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn-brand{background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 92%, white),color-mix(in srgb,var(--brand) 78%, black));
+      color:#0b0b0f;border:0}
+    .btn-outline{background:transparent;border:1px solid color-mix(in srgb,var(--brand) 35%, var(--border));}
+    .btn-outline:hover{transform:translateY(-1px);border-color:color-mix(in srgb,var(--brand) 60%, var(--border));}
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brandmark"><span class="branddot"></span>Specaide</div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../partners.html" class="nav-active">Partners</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero brand-hero">
+  <div class="hero-card">
+    <div class="kicker">Brand Partner</div>
+    <h1>Privetek</h1>
+    <p>Switchable smart glass and privacy solutions for meeting rooms, partitions, and glass façades.</p>
+    <div class="chips"><span class="chip">Switchable smart glass</span><span class="chip">Privacy on demand</span><span class="chip">Glass partitions</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="stack">
+      <h2>Overview</h2>
+      <p>Privetek provides privacy-on-demand glass solutions—ideal for meeting rooms, executive spaces, clinics, and any environment where transparency and privacy need to switch instantly.</p>
+
+      <h2>Signature product lines</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="miniimg"><img src="https://privetek.com/images/privacy-smart-glass/privacy-smart-glass-banner.webp" alt="Switchable smart glass"></div>
+          <h3>Switchable smart glass</h3>
+          <p>Glass that toggles between clear and opaque for instant privacy.</p>
+        </div>
+        <div class="card">
+          
+          <h3>Smart film (retrofit)</h3>
+          <p>Film solutions that can be applied to existing glazing for a privacy upgrade.</p>
+        </div>
+        <div class="card">
+          
+          <h3>Control systems</h3>
+          <p>Wall switches, remotes, and automation integrations for daily operations.</p>
+        </div></div>
+
+      <h2>Featured visuals</h2>
+      <div class="shots">
+        <figure class="shot">
+          <img src="https://privetek.com/images/privacy-smart-glass/privacy-smart-glass-banner.webp" alt="Privetek privacy smart glass office">
+          <figcaption>Privacy smart glass for modern meeting rooms and partitions.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80" alt="Glass partition">
+          <figcaption>A clean architectural look—privacy when you need it.</figcaption>
+        </figure></div>
+    </div>
+
+    <aside class="muted-card">
+      <div class="kicker">Why we specify</div>
+      <h3 style="margin:8px 0 0">What makes Privetek distinctive</h3>
+      <ul><li>Instant privacy for meeting rooms and sensitive spaces</li><li>Works well for modern, glass-forward architectural designs</li><li>Strong visual impact: clear when open, opaque when private</li></ul>
+
+      <div style="height:14px"></div>
+      <div class="kicker">Official site</div>
+      <p style="margin:8px 0 0">
+        <a href="https://privetek.com/" target="_blank" rel="noopener" style="color:color-mix(in srgb,var(--brand) 70%, white);font-weight:800;text-decoration:none">
+          Visit Privetek →
+        </a>
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-brand" href="../contact.html">Book a call</a>
+        <a class="btn btn-outline" href="../partners.html">Back to partners</a>
+      </div>
+
+      <p style="margin-top:14px;color:rgba(245,246,247,.55);font-size:12.5px">
+        Specaide supplies and specifies this brand for commercial projects. For purchasing, quotes, lead times, and after-sales support, contact Specaide.
+      </p>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2025 Specaide Interiors Pvt. Ltd.</div>
+    <div class="footnote">Premium commercial interiors • Specification aide • Procurement</div>
+  </div>
+</footer>
+</body>
+</html>
